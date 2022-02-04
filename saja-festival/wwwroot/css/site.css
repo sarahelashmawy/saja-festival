@@ -1,18 +1,25 @@
-html {
-  font-size: 14px;
+
+body{
+    margin:0;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+header{
+    background-color:aquamarine;
+    height: 50px;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+nav{
+    background-color:burlywood;
+    height: 100px;
 }
 
-body {
-  margin-bottom: 60px;
+div{
+    background-color: coral;
+    height: 400px;
 }
+
+footer{
+    background-color: darkcyan;
+    height: 50px;
+}
+
