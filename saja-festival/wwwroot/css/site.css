@@ -1,25 +1,37 @@
 
 body{
+    background-color: #691740;
     margin:0;
 }
 
 header{
-    background-color:aquamarine;
     height: 50px;
 }
 
-nav{
-    background-color:burlywood;
-    height: 100px;
+nav {
+    position: absolute;
+    background-color: #081842;
+    width: 1280px;
+    height: 75px;
+}
+zoek {
+    position: absolute;
+    width: 186px;
+    height: 42px;
+    left: 1080px;
+    top: 18.5px;
+
+    background: #36270B;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
 div{
-    background-color: coral;
     height: 400px;
 }
 
-footer{
-    background-color: darkcyan;
+footer {
     height: 50px;
 }
 
