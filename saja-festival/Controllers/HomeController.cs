@@ -19,11 +19,15 @@ namespace saja_festival.Controllers
         }
         
         [Route ("contact")]
-        public IActionResult Contact()
+        public IActionResult Contact(string Voornaam, string Achternaam)
         {
+            ViewData["firstname"] = Voornaam; 
+            ViewData["lastname"] = Achternaam;
+
             return View();
         }
 
+        [Route ("privacy")]
         public IActionResult Privacy()
         {
             return View();
