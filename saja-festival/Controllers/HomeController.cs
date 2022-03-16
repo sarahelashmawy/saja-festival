@@ -17,6 +17,12 @@ namespace saja_festival.Controllers
         {
             return View();
         }
+        
+        [Route ("contact")]
+        public IActionResult Contact()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
