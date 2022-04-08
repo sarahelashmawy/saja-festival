@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using saja_festival.Models;
 using System.Diagnostics;
+using MySql.Data;
 
 namespace saja_festival.Controllers
 {
